@@ -12,6 +12,6 @@ Creates a second, independent tidy data set with the average of each variable fo
 
 ## Steps to run Script
 
-Download the data source and put into a folder on your local drive. You'll have a UCI HAR Dataset folder.
-Put run_analysis.R in the same folder as the data, then set it as your working directory using setwd() function in RStudio.
+Download the data source and put into a folder on your local drive. The folder containing the data is UCI HAR Dataset .
+Put run_analysis.R in the same folder where you placed the data, then set it as your working directory using setwd() function in RStudio.
 Run source("run_analysis.R"), then it will generate a new file tidy.txt in your working directory.
